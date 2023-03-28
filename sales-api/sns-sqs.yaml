@@ -1,0 +1,26 @@
+service: stock_queue
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: ap-northeast-2
+
+constructs:
+  stock_queue:
+    name: stock_queue
+    type: queue
+    worker:
+      handler: handler.app
+
+  dispatcher:
+    handler: handler.app
+    events:
+      - sns: 
+          topicName: stock_empty
+      - httpApi:
+          method: post
+          path: /checkout
+ 
+plugins:
+  - serverless-lift

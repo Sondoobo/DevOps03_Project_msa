@@ -11,3 +11,58 @@ functions:
     handler: handler.handler
     events:
       - httpApi: '*'
+
+    # producer:
+    #   handler: handler.producer
+    #   events:
+    #     - httpApi: '*'
+    #   environment:
+    #     sqs: process.env.sqs
+#   producer:
+#      handler: handler.producer
+#      events:
+#       - httpApi: '*'
+
+
+# constructs:
+#   stock_queue:
+#     name: stock_queue
+#     type: queue
+#     worker:
+#       handler: handler.app
+   
+#     jobs:
+#       handler: handler.app
+#       events:
+#         - sns: 
+#             topicName: stock_empty
+#         - httpApi:
+#             method: post
+#             path: /checkout
+
+ 
+# plugins:
+#   - serverless-lift
+
+
+
+
+
+# constructs:
+#   stock_queue:
+#     name: stock_queue
+#     type: queue
+#     worker:
+#       handler: handler.app
+
+#   dispatcher:
+#      handler: handler.app
+#      events:
+#        - sns: 
+#           topicName: stock_empty
+#        - httpApi:
+#            method: post
+#            path: /checkout
+ 
+# plugins:
+#   - serverless-lift

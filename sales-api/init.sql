@@ -71,6 +71,6 @@ FROM advertisement;
 -- 90d718bc-c217-11ec-baec-d322339a6943
 
 INSERT INTO product(product_id, sku, name, price, stock, factory_id, ad_id)
-VALUES(UUID_TO_BIN(UUID()),'CP-502101','부산도너츠', 19900, 3, UUID_TO_BIN("2b398f8a-c217-11ec-baec-d322339a6943"),
-UUID_TO_BIN('90d718bc-c217-11ec-baec-d322339a6943'));
+VALUES(UUID_TO_BIN(UUID()),'CP-502101','부산도너츠', 19900, 3, UUID_TO_BIN("d5f87cb3-b0bf-11ed-8e89-069658f3b1c6"),
+UUID_TO_BIN('d6a9f8b0-b0bf-11ed-8e89-069658f3b1c6'));
 
