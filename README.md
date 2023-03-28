@@ -3,7 +3,7 @@
 
  - Team : 
  
- 손동훈 : [Sondoobo](https://github.com/Sondoobo) | 김도형 :  | 최우람 : |
+ 손동훈 : [Sondoobo](https://github.com/Sondoobo) | 김도형 : [kdh5983](https://github.com/kdh5983) | 최우람 : [wooov](https://github.com/wooov) |
  --- | --- | --- |
 
  - Duration : 2022.02.17 ~ 2022.02.22
