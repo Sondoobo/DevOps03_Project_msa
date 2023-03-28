@@ -13,5 +13,8 @@
     "start": "node handler.local.js",
     "invoke": "serverless invoke --function api",
     "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "serverless-lift": "^1.21.1"
   }
 }
